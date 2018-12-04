@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1986ВЕ1Т
+D 1986ВЕ1Т - 32bit ARM Cortex-M3, 80MHz, 128Kb Flash, 32Kb RAM, 16*12bit ADC, 12bit DAC, USB, SPI, I2C, UART, 2*CAN, 2.2V-3.6V, -60..+125, (4229.132-3)
+F https://ic.milandr.ru/upload/iblock/dd2/dd2c1a48f8fc33845a1d4060c46dfebb.pdf
+$ENDCMP
+#
+$CMP 5600BB3T
+D 4x port IEEE802.3 Ethernet switch/hub 10/100Base-TX, 1x MII, JTAG, SPI, 3.3V, -60..+85C (4229.132-3)
+K Ethernet
+F https://ic.milandr.ru/upload/iblock/957/95752f946d023ae3decd3ee0942224f5.pdf
+$ENDCMP
+#
+$CMP K1986ВЕ1QI
+D 1986ВЕ1Т - 32bit ARM Cortex-M3, 80MHz, 128Kb Flash, 32Kb RAM, 16*12bit ADC, 12bit DAC, USB, SPI, I2C, UART, 2*CAN, 2.2V-3.6V, -60..+125, (4229.132-3)
+F https://ic.milandr.ru/upload/iblock/dd2/dd2c1a48f8fc33845a1d4060c46dfebb.pdf
+$ENDCMP
+#
+#End Doc Library
