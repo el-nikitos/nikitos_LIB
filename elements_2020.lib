@@ -1,6 +1,20 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Check_point
+#
+DEF Check_point X 0 40 Y Y 1 F N
+F0 "X" -25 100 50 H V C CNN
+F1 "Check_point" 50 -100 50 H V C CNN
+F2 "N_X:Пробник" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+X ~ 1 -150 0 100 R 50 50 1 1 I
+X ~ 2 150 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # IGBT_IRGR4045DPBF_600V_6A_DPAK
 #
 DEF IGBT_IRGR4045DPBF_600V_6A_DPAK VT 0 40 Y Y 1 F N
@@ -246,6 +260,21 @@ X ~ 1 -150 300 50 R 50 50 1 1 I
 X ~ 2 150 300 50 L 50 50 1 1 I
 X ~ 3 -150 0 50 R 50 50 1 1 I
 X ~ 4 150 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Крепеж
+#
+DEF Крепеж X 0 40 Y Y 1 F N
+F0 "X" -75 125 50 H V C CNN
+F1 "Крепеж" -25 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+P 2 0 1 0 0 0 -100 0 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
