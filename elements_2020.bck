@@ -4,6 +4,23 @@ $CMP LOGO_NIKITOS_19х7
 D -Т-
 $ENDCMP
 #
+$CMP MOSFET_N-канал_AUIRF3205Z
+D 55 В, 75 А, Uзи = 20В
+$ENDCMP
+#
+$CMP MOSFET_P-канал_IRF4905PBF
+D 55 В, 74 А, Uзи = 20В
+F https://static.chipdip.ru/lib/144/DOC000144236.pdf
+$ENDCMP
+#
+$CMP Диод_VS-20ETS08S-M3
+D Сдвоенный, 20А, 800В
+$ENDCMP
+#
+$CMP Диодный_мост_KBPC3501
+D 35 А, 100 В
+$ENDCMP
+#
 $CMP Розетка_USB_Type-C_16pins_4legs_SMD
 F https://aliexpress.ru/item/33045191307.html?spm=a2g0o.productlist.0.0.39127803kfvIMU&algo_pvid=15b1759e-9469-455a-989f-e73068a8afd9&algo_expid=15b1759e-9469-455a-989f-e73068a8afd9-26&btsid=0b8b034a15836664650142975ebe12&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 $ENDCMP
