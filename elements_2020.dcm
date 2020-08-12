@@ -1,11 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AC-DC-преобразователь_IRM-10-15
+F https://static.chipdip.ru/lib/149/DOC003149247.pdf
+$ENDCMP
+#
 $CMP LOGO_NIKITOS_19х7
 D -Т-
 $ENDCMP
 #
 $CMP MOSFET_N-канал_AUIRF3205Z
 D 55 В, 75 А, Uзи = 20В
+$ENDCMP
+#
+$CMP MOSFET_N-канал_STD60N3LH5
+D DPAK, 30 В, 48 А, Uзи = 20В
 $ENDCMP
 #
 $CMP MOSFET_P-канал_IRF4905PBF
@@ -15,6 +23,10 @@ $ENDCMP
 #
 $CMP Диод_VS-20ETS08S-M3
 D Сдвоенный, 20А, 800В
+$ENDCMP
+#
+$CMP Диод_шоттки_SK16
+F https://static.chipdip.ru/lib/046/DOC003046730.pdf
 $ENDCMP
 #
 $CMP Диодный_мост_KBPC3501
@@ -27,6 +39,11 @@ $ENDCMP
 #
 $CMP Розетка_USB_Type-C_6pins_4legs_SMD
 F https://aliexpress.ru/item/33040937138.html?spm=a2g0o.productlist.0.0.39127803kfvIMU&algo_pvid=15b1759e-9469-455a-989f-e73068a8afd9&algo_expid=15b1759e-9469-455a-989f-e73068a8afd9-14&btsid=0b8b034a15836664650142975ebe12&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
+$ENDCMP
+#
+$CMP Стабилитрон_1N5352BRLG_вертикальный
+D Uстаб=15 В; В, Iстаб = 75...315 мА, DO-201 вертикальный
+F https://static.chipdip.ru/lib/773/DOC002773472.pdf
 $ENDCMP
 #
 $CMP Терморезистор_10_кОм±1%_0,1Вт
