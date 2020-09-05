@@ -4,6 +4,10 @@ $CMP AC-DC-преобразователь_IRM-10-15
 F https://static.chipdip.ru/lib/149/DOC003149247.pdf
 $ENDCMP
 #
+$CMP AC-DC-преобразователь_IRM-20-12
+F https://static.chipdip.ru/lib/305/DOC004305859.pdf
+$ENDCMP
+#
 $CMP LOGO_NIKITOS_19х7
 D -Т-
 $ENDCMP
@@ -31,6 +35,15 @@ $ENDCMP
 #
 $CMP Диодный_мост_KBPC3501
 D 35 А, 100 В
+$ENDCMP
+#
+$CMP Жидкокристалический_индикатор_MT-16S2H-2KLW
+D ОТК, с термокомпенсацией, наименование "индикатор" не уточнялось
+F http://www.melt.com.ru/docs/MT-16S2H.pdf
+$ENDCMP
+#
+$CMP Микросхема_DCDC_step_DOWN_MP2307DN
+F https://static.chipdip.ru/lib/081/DOC001081422.pdf
 $ENDCMP
 #
 $CMP Розетка_USB_Type-C_16pins_4legs_SMD
