@@ -37,11 +37,6 @@ $CMP Диодный_мост_KBPC3501
 D 35 А, 100 В
 $ENDCMP
 #
-$CMP Жидкокристалический_индикатор_MT-12864A-2FLA-3V0-T_copy
-D ОТК, с термокомпенсацией, наименование "индикатор" не уточнялось
-F ${MOTOR_2020_LIB}\documentation\MT-12864A_СП.pdf
-$ENDCMP
-#
 $CMP Жидкокристалический_индикатор_MT-16S2H-2KLW
 D ОТК, с термокомпенсацией, наименование "индикатор" не уточнялось
 F http://www.melt.com.ru/docs/MT-16S2H.pdf
@@ -49,6 +44,15 @@ $ENDCMP
 #
 $CMP Микросхема_DCDC_step_DOWN_MP2307DN
 F https://static.chipdip.ru/lib/081/DOC001081422.pdf
+$ENDCMP
+#
+$CMP Повторитель_M74VHC1GT125
+F https://static.chipdip.ru/lib/225/DOC000225700.pdf
+$ENDCMP
+#
+$CMP Резистор_подстроечный_PVA3A103
+D Потенциометр 10 кОм; макс 0,1 Вт
+F ${MOTOR_2020_LIB}\documentation\IMPORT\potentiometrs_PVZ.pdf
 $ENDCMP
 #
 $CMP Розетка_USB_Type-C_16pins_4legs_SMD

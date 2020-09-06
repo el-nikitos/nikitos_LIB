@@ -46,6 +46,15 @@ $CMP Микросхема_DCDC_step_DOWN_MP2307DN
 F https://static.chipdip.ru/lib/081/DOC001081422.pdf
 $ENDCMP
 #
+$CMP Повторитель_M74VHC1GT125
+F https://static.chipdip.ru/lib/225/DOC000225700.pdf
+$ENDCMP
+#
+$CMP Резистор_подстроечный_PVA3A103
+D Потенциометр 10 кОм; макс 0,1 Вт
+F ${MOTOR_2020_LIB}\documentation\IMPORT\potentiometrs_PVZ.pdf
+$ENDCMP
+#
 $CMP Розетка_USB_Type-C_16pins_4legs_SMD
 F https://aliexpress.ru/item/33045191307.html?spm=a2g0o.productlist.0.0.39127803kfvIMU&algo_pvid=15b1759e-9469-455a-989f-e73068a8afd9&algo_expid=15b1759e-9469-455a-989f-e73068a8afd9-26&btsid=0b8b034a15836664650142975ebe12&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
 $ENDCMP
