@@ -4,6 +4,10 @@ $CMP AC-DC-преобразователь_IRM-10-15
 F https://static.chipdip.ru/lib/149/DOC003149247.pdf
 $ENDCMP
 #
+$CMP AC-DC-преобразователь_IRM-15-5
+F https://static.chipdip.ru/lib/305/DOC004305851.pdf
+$ENDCMP
+#
 $CMP AC-DC-преобразователь_IRM-20-12
 F https://static.chipdip.ru/lib/305/DOC004305859.pdf
 $ENDCMP

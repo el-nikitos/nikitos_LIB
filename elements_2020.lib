@@ -19,6 +19,24 @@ X N N -50 -200 50 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# AC-DC-преобразователь_IRM-15-5
+#
+DEF AC-DC-преобразователь_IRM-15-5 G 0 40 Y Y 1 F N
+F0 "G" 225 175 50 H V C CNN
+F1 "AC-DC-преобразователь_IRM-15-5" 325 -300 50 H V C CNN
+F2 "N_G:AC-DC_IRM-20-12" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/irm-15-5" 350 -400 50 H I C CNN "LINK"
+F5 "220В/5В" 350 -200 50 H V C CNN "INFO"
+DRAW
+S 0 50 700 -250 0 1 0 f
+X +V +V 750 0 50 L 50 50 1 1 I
+X -V -V 750 -100 50 L 50 50 1 1 I
+X L L -50 0 50 R 50 50 1 1 I
+X N N -50 -200 50 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # AC-DC-преобразователь_IRM-20-12
 #
 DEF AC-DC-преобразователь_IRM-20-12 G 0 40 Y Y 1 F N
@@ -217,6 +235,22 @@ P 4 0 1 0 100 -50 75 -75 125 -75 100 -50 N
 X ~ 1 -200 -150 50 R 50 50 1 1 I
 X ~ 2 50 -300 50 U 50 50 1 1 I
 X ~ 3 50 150 50 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Держатель_предохранителя_KLS5-266
+#
+DEF Держатель_предохранителя_KLS5-266 XFU 0 40 Y Y 1 F N
+F0 "XFU" 0 125 50 H V C CNN
+F1 "Держатель_предохранителя_KLS5-266" 100 -250 50 H I C CNN
+F2 "N_X:Держатель_5х20" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.chipdip.ru/product/kls5-266-fh-100" 150 -325 50 H I C CNN "LINK"
+DRAW
+S 100 100 150 -100 0 1 0 N
+P 2 0 1 0 150 -100 200 -100 N
+P 2 0 1 0 150 100 200 100 N
+X ~ 1 0 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
