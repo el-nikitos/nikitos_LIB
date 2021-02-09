@@ -50,8 +50,16 @@ $CMP Микросхема_DCDC_step_DOWN_MP2307DN
 F https://static.chipdip.ru/lib/081/DOC001081422.pdf
 $ENDCMP
 #
+$CMP Микросхема_заряда_MCP73831T-2ACI_OT
+F https://static.chipdip.ru/lib/149/DOC001149283.pdf
+$ENDCMP
+#
 $CMP Повторитель_M74VHC1GT125
 F https://static.chipdip.ru/lib/225/DOC000225700.pdf
+$ENDCMP
+#
+$CMP Преобразователь_температуры_LM75AD
+F https://static.chipdip.ru/lib/301/DOC000301694.pdf
 $ENDCMP
 #
 $CMP Резистор_подстроечный_PVA3A103
