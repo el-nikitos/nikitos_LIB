@@ -12,6 +12,10 @@ $CMP AC-DC-преобразователь_IRM-20-12
 F https://static.chipdip.ru/lib/305/DOC004305859.pdf
 $ENDCMP
 #
+$CMP AC-DC-преобразователь_LS05-15B05SS
+F https://www.compel.ru/item-pdf/c44e6d225c0504a93a0da28668519994/ps/mornsun~ls05-15bss.pdf
+$ENDCMP
+#
 $CMP LOGO_NIKITOS_19х7
 D -Т-
 $ENDCMP

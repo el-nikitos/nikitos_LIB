@@ -12,6 +12,10 @@ $CMP AC-DC-преобразователь_IRM-20-12
 F https://static.chipdip.ru/lib/305/DOC004305859.pdf
 $ENDCMP
 #
+$CMP AC-DC-преобразователь_LS05-15B05SS
+F https://www.compel.ru/item-pdf/c44e6d225c0504a93a0da28668519994/ps/mornsun~ls05-15bss.pdf
+$ENDCMP
+#
 $CMP LOGO_NIKITOS_19х7
 D -Т-
 $ENDCMP
@@ -50,8 +54,16 @@ $CMP Микросхема_DCDC_step_DOWN_MP2307DN
 F https://static.chipdip.ru/lib/081/DOC001081422.pdf
 $ENDCMP
 #
+$CMP Микросхема_заряда_MCP73831T-2ACI_OT
+F https://static.chipdip.ru/lib/149/DOC001149283.pdf
+$ENDCMP
+#
 $CMP Повторитель_M74VHC1GT125
 F https://static.chipdip.ru/lib/225/DOC000225700.pdf
+$ENDCMP
+#
+$CMP Преобразователь_температуры_LM75AD
+F https://static.chipdip.ru/lib/301/DOC000301694.pdf
 $ENDCMP
 #
 $CMP Резистор_подстроечный_PVA3A103
