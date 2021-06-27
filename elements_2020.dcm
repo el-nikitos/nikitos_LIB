@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AC-DC-преобразователь_AMEOF3-5SJZ
+F https://static.chipdip.ru/lib/010/DOC004010552.pdf
+$ENDCMP
+#
 $CMP AC-DC-преобразователь_IRM-10-15
 F https://static.chipdip.ru/lib/149/DOC003149247.pdf
 $ENDCMP
