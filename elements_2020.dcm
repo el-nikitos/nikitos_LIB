@@ -20,6 +20,16 @@ $CMP AC-DC-преобразователь_LS05-15B05SS
 F https://www.compel.ru/item-pdf/c44e6d225c0504a93a0da28668519994/ps/mornsun~ls05-15bss.pdf
 $ENDCMP
 #
+$CMP LDO_TPS76318DBVT
+D UIN < 10V, UOUT 1.8V, IOUT < 150mA, SOT23-5
+F https://static.chipdip.ru/lib/205/DOC000205216.pdf
+$ENDCMP
+#
+$CMP LDO_TPS76325DBVR
+D UIN < 10V, UOUT 2.5V, IOUT < 150mA, SOT23-5
+F https://static.chipdip.ru/lib/205/DOC000205216.pdf
+$ENDCMP
+#
 $CMP LOGO_NIKITOS_19х7
 D -Т-
 $ENDCMP
