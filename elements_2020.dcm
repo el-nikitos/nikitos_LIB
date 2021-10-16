@@ -72,6 +72,10 @@ $CMP Микросхема_заряда_MCP73831T-2ACI_OT
 F https://static.chipdip.ru/lib/149/DOC001149283.pdf
 $ENDCMP
 #
+$CMP ОУ_LMV321ILT
+F https://static.chipdip.ru/lib/458/DOC001458868.pdf
+$ENDCMP
+#
 $CMP Повторитель_M74VHC1GT125
 F https://static.chipdip.ru/lib/225/DOC000225700.pdf
 $ENDCMP
