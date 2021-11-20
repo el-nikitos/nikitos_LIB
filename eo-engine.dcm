@@ -4,4 +4,14 @@ $CMP Преобразователь*ETH-SPI*SSOP28
 F https://www.terraelectronica.ru/pdf/show?pdf_file=http%253A%252F%252Fwww.farnell.com%252Fdatasheets%252F1700966.pdf
 $ENDCMP
 #
+$CMP Транзистор*npn*0,5А*45В*SOT23
+D NPN, h21=100...250, Iк.макс < 100 мА, P < 200 мВт, Uкэ < 40 В, sot-23
+F ${MOTOR_2020_LIB}\documentation\2Т3130_СП.pdf
+$ENDCMP
+#
+$CMP Транзистор*pnp*0,5А*45В*SOT23
+D NPN, h21=100...250, Iк.макс < 100 мА, P < 200 мВт, Uкэ < 40 В, sot-23
+F ${MOTOR_2020_LIB}\documentation\2Т3130_СП.pdf
+$ENDCMP
+#
 #End Doc Library
