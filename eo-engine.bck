@@ -1,11 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LDO*вход_18Вmax*выход_3,3В*ток_1,2АSOT-223
+F https://static.chipdip.ru/lib/529/DOC010529765.pdf
+$ENDCMP
+#
 $CMP ico*отверстие*М3
 D крепежное отверстие под минт М3
 $ENDCMP
 #
 $CMP Преобразователь*ETH-SPI*SSOP28
 F https://www.terraelectronica.ru/pdf/show?pdf_file=http%253A%252F%252Fwww.farnell.com%252Fdatasheets%252F1700966.pdf
+$ENDCMP
+#
+$CMP Розетка*ETH+трансформатор*8p8c
+F https://static.chipdip.ru/lib/226/DOC006226085.pdf
 $ENDCMP
 #
 $CMP Транзистор*npn*0,5А*45В*SOT23
@@ -16,6 +24,14 @@ $ENDCMP
 $CMP Транзистор*pnp*0,5А*45В*SOT23
 D NPN, h21=100...250, Iк.макс < 100 мА, P < 200 мВт, Uкэ < 40 В, sot-23
 F ${MOTOR_2020_LIB}\documentation\2Т3130_СП.pdf
+$ENDCMP
+#
+$CMP Чип-индуктивность*0,56мкГн*150мА*0805
+F https://static.chipdip.ru/lib/250/DOC000250683.pdf
+$ENDCMP
+#
+$CMP Чип-индуктивность*2,2мкГн*150мА*0805
+F https://static.chipdip.ru/lib/250/DOC000250683.pdf
 $ENDCMP
 #
 #End Doc Library
