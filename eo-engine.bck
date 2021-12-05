@@ -30,8 +30,4 @@ $CMP Чип-индуктивность*0,56мкГн*150мА*0805
 F https://static.chipdip.ru/lib/250/DOC000250683.pdf
 $ENDCMP
 #
-$CMP Чип-индуктивность*2,2мкГн*150мА*0805
-F https://static.chipdip.ru/lib/250/DOC000250683.pdf
-$ENDCMP
-#
 #End Doc Library
