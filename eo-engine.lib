@@ -534,6 +534,25 @@ X ~ 3 0 -600 100 U 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
+# Диод*75В*0,2А*SOD-323
+#
+DEF Диод*75В*0,2А*SOD-323 VD 0 40 Y Y 1 F N
+F0 "VD" 300 200 138 H V C CNN
+F1 "Диод*75В*0,2А*SOD-323" 0 600 50 H I C CNN
+F2 "N_VD_HL:D_SOD-323_HandSoldering" 100 500 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+F4 "75В 0,2А" 250 -200 138 H V C CNN "INFO"
+F5 "https://www.chipdip.ru/product/bas416.115" 0 0 138 H I C CNN "LINK"
+F6 "13" 0 0 138 H I C CNN "COST"
+DRAW
+P 2 0 1 18 350 100 350 -100 N
+P 2 0 1 18 500 0 0 0 N
+P 4 0 1 18 150 100 150 -100 350 0 150 100 N
+X ~ 1 500 0 100 U 50 50 1 1 I N
+X ~ 2 0 0 100 U 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
 # Клеммник*шаг_3,5*3контактов*1ряд*вертикальная
 #
 DEF Клеммник*шаг_3,5*3контактов*1ряд*вертикальная XP 0 40 Y Y 1 F N
