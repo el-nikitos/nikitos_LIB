@@ -1,9 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LDO*вход_18Вmax*выход_3,3В*ток_1,2АSOT-223
-F https://static.chipdip.ru/lib/529/DOC010529765.pdf
-$ENDCMP
-#
 $CMP ico*LOGO_NIKITOS_10х10
 D -Т-
 $ENDCMP
@@ -14,6 +10,10 @@ $ENDCMP
 #
 $CMP ico*отверстие*М3
 D крепежное отверстие под минт М3
+$ENDCMP
+#
+$CMP Микросхема*LDO*IN8V*OUT3V3*1,2A*SOT-223
+F https://static.chipdip.ru/lib/529/DOC010529765.pdf
 $ENDCMP
 #
 $CMP Преобразователь*ETH-SPI*SSOP28
