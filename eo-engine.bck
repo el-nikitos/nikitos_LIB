@@ -8,6 +8,10 @@ $CMP ico*LOGO_NIKITOS_19х7
 D -Т-
 $ENDCMP
 #
+$CMP ico*отверстие*D1.2
+D крепежное отверстие под минт М3
+$ENDCMP
+#
 $CMP ico*отверстие*М3
 D крепежное отверстие под минт М3
 $ENDCMP

@@ -109,6 +109,22 @@ T 0 0 0 50 0 0 0 LOGO Normal 0 C C
 ENDDRAW
 ENDDEF
 #
+# ico*отверстие*D1.2
+#
+DEF ico*отверстие*D1.2 X 0 40 Y Y 1 F N
+F0 "X" -75 125 50 H I C CNN
+F1 "ico*отверстие*D1.2" -25 -125 50 H I C CNN
+F2 "N_X:ОтверстиеD1.2" -75 225 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+T 0 250 -125 138 0 0 0 D1.2 Normal 0 C C
+P 2 0 1 0 0 100 0 -100 N
+P 2 0 1 0 100 0 -100 0 N
+X ~ 1 0 0 100 R 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
 # ico*отверстие*М3
 #
 DEF ico*отверстие*М3 X 0 40 Y Y 1 F N
